@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git branch: 'main', 
                     url: 'https://github.com/yonre4444/terraform-infra-setup.git', 
-                    credentialsId: 'terraform'
+                    credentialsId: 'jenkins'
             }
         }
         stage('Test') {
